@@ -1,0 +1,21 @@
+{
+  "name": "html-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/tsc src/main.ts --outDir dist",
+    "html-parser": "npm run build && node dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.118",
+    "@types/node": "^10.12.12",
+    "html2json": "^1.0.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "typescript": "^3.2.2"
+  }
+}
